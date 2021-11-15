@@ -1,0 +1,138 @@
+[
+  {
+    "id": 0,
+    "name": "Jedi Fallen Order",
+    "picture": "images/FallenOrderPC.png",
+    "year": 2019,
+    "developer": "Eletronic Arts",
+    "platform": "PC"
+  },
+  {
+    "id": 1,
+    "name": "Jedi Fallen Order",
+    "picture": "images/FallenOrderPS4.png",
+    "year": 2019,
+    "developer": "Eletronic Arts",
+    "platform": "PS4"
+  },
+  {
+    "id": 2,
+    "name": "Jedi Fallen Order",
+    "picture": "images/FallenOrderPS5.png",
+    "year": 2019,
+    "developer": "Eletronic Arts",
+    "platform": "PS5"
+  },
+  {
+    "id": 3,
+    "name": "Final Fantasy XIV Endwalker",
+    "picture": "images/FFXIV.png",
+    "year": 2021,
+    "developer": "Square Enix",
+    "platform": "PC"
+  },
+  {
+    "id": 4,
+    "name": "Final Fantasy XIV Endwalker",
+    "picture": "images/FFXIV.png",
+    "year": 2021,
+    "developer": "Square Enix",
+    "platform": "PS5"
+  },
+  {
+    "id": 5,
+    "name": "Final Fantasy XV",
+    "picture": "images/FFXVPC.png",
+    "year": 2018,
+    "developer": "Square Enix",
+    "platform": "PC"
+  },
+  {
+    "id": 6,
+    "name": "Final Fantasy XV",
+    "picture": "images/FFXVPS4.png",
+    "year": 2016,
+    "developer": "Square Enix",
+    "platform": "PS4"
+  },
+  {
+    "id": 7,
+    "name": "Nier Automata",
+    "picture": "images/NAPC.png",
+    "year": 2017,
+    "developer": "Square Enix",
+    "platform": "PC"
+  },
+  {
+    "id": 8,
+    "name": "Nier Automata",
+    "picture": "images/NAPS4.png",
+    "year": 2017,
+    "developer": "Square Enix",
+    "platform": "PS4"
+  },
+  {
+    "id": 9,
+    "name": "Nier Replicant ver.1.22474487139",
+    "picture": "images/NRPC.png",
+    "year": 2021,
+    "developer": "Square Enix",
+    "platform": "PC"
+  },
+  {
+    "id": 10,
+    "name": "Nier Replicant ver.1.22474487139",
+    "picture": "images/NRPS4.png",
+    "year": 2021,
+    "developer": "Square Enix",
+    "platform": "PS4"
+  },
+  {
+    "id": 11,
+    "name": "Devil May Cry 5",
+    "picture": "images/DMC5PC.png",
+    "year": 2019,
+    "developer": "Capcom",
+    "platform": "PC"
+  },
+  {
+    "id": 12,
+    "name": "Devil May Cry 5",
+    "picture": "images/DMC5PS4.png",
+    "year": 2019,
+    "developer": "Capcom",
+    "platform": "PS4"
+  },
+  {
+    "id": 13,
+    "name": "Devil May Cry 5",
+    "picture": "images/DMC5XONE.png",
+    "year": 2019,
+    "developer": "Capcom",
+    "platform": "XBOX ONE"
+  },
+  {
+    "id": 14,
+    "name": "Assassin's Creed II",
+    "picture": "images/AC2PS3.png",
+    "year": 2009,
+    "developer": "Ubisoft",
+    "platform": "PS3"
+  },
+  {
+    "id": 15,
+    "name": "Assassin's Creed II",
+    "picture": "images/AC2X360.png",
+    "year": 2009,
+    "developer": "Ubisoft",
+    "platform": "XBOX 360"
+  },
+  {
+    "id": 16,
+    "name": "Horizon Zero Dawn",
+    "picture": "images/HZDPS4.png",
+    "year": 2017,
+    "developer": "Guerrilla",
+    "platform": "PS4"
+  }
+]

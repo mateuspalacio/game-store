@@ -1,0 +1,131 @@
+[
+    {
+        "id": 0,
+        "name": "Playstation 3",
+        "picture": "game-store/src/images/PS3.png",
+        "year": 2006,
+        "developer": "Sony"
+    },
+    {
+        "id": 1,
+        "name": "XBOX 360",
+        "picture": "game-store/src/images/XBOX360.png",
+        "year": 2005,
+        "developer": "Microsoft"
+    },
+    {
+        "id": 2,
+        "name": "Playstation 4",
+        "picture": "game-store/src/images/PS4.png",
+        "year": 2013,
+        "developer": "Sony"
+    },
+    {
+        "id": 3,
+        "name": "XBOX ONE",
+        "picture": "game-store/src/images/XONE.png",
+        "year": 2013,
+        "developer": "Microsoft"
+    },
+    {
+        "id": 4,
+        "name": "Playstation 5",
+        "picture": "game-store/src/images/ps5.png",
+        "year": 2020,
+        "developer": "Sony"
+    },
+    {
+        "id": 5,
+        "name": "XBOX SERIES S",
+        "picture": "game-store/src/images/XBOXSERIESS.png",
+        "year": 2020,
+        "developer": "Microsoft"
+    },
+    {
+        "id": 6,
+        "name": "XBOX SERIES X",
+        "picture": "game-store/src/images/XBOXSERIESX.png",
+        "year": 2020,
+        "developer": "Microsoft"
+    },
+    {
+        "id": 7,
+        "name": "Nier Automata",
+        "picture": "game-store/src/images/NAPC.png",
+        "year": 2017,
+        "developer": "Square Enix",
+        "platform": "PC"
+    },
+    {
+        "id": 8,
+        "name": "Nier Automata",
+        "picture": "game-store/src/images/NAPS4.png",
+        "year": 2017,
+        "developer": "Square Enix",
+        "platform": "PS4"
+    },
+    {
+        "id": 9,
+        "name": "Nier Replicant ver.1.22474487139",
+        "picture": "game-store/src/images/NRPC.png",
+        "year": 2021,
+        "developer": "Square Enix",
+        "platform": "PC"
+    },
+    {
+        "id": 10,
+        "name": "Nier Replicant ver.1.22474487139",
+        "picture": "game-store/src/images/NRPS4.png",
+        "year": 2021,
+        "developer": "Square Enix",
+        "platform": "PS4"
+    },
+    {
+        "id": 11,
+        "name": "Devil May Cry 5",
+        "picture": "game-store/src/images/DMC5PC.png",
+        "year": 2019,
+        "developer": "Capcom",
+        "platform": "PC"
+    },
+    {
+        "id": 12,
+        "name": "Devil May Cry 5",
+        "picture": "game-store/src/images/DMC5PS4.png",
+        "year": 2019,
+        "developer": "Capcom",
+        "platform": "PS4"
+    },
+    {
+        "id": 13,
+        "name": "Devil May Cry 5",
+        "picture": "game-store/src/images/DMC5XONE.png",
+        "year": 2019,
+        "developer": "Capcom",
+        "platform": "XBOX ONE"
+    },
+    {
+        "id": 14,
+        "name": "Assassin's Creed II",
+        "picture": "game-store/src/images/AC2PS3.png",
+        "year": 2009,
+        "developer": "Ubisoft",
+        "platform": "PS3"
+    },
+    {
+        "id": 15,
+        "name": "Assassin's Creed II",
+        "picture": "game-store/src/images/AC2X360.png",
+        "year": 2009,
+        "developer": "Ubisoft",
+        "platform": "XBOX 360"
+    },
+    {
+        "id": 16,
+        "name": "Horizon Zero Dawn",
+        "picture": "game-store/src/images/HZDPS4.png",
+        "year": 2017,
+        "developer": "Guerrilla",
+        "platform": "PS4"
+    }
+]
