@@ -2,23 +2,53 @@ App = {
   web3Provider: null,
   contracts: {},
 
-  init: async function () {
-    // Load pets.
-    $.getJSON('../products.json', function (data) {
-      var gamesRow = $('#gamesRow');
-      var gameTemplate = $('#gameTemplate');
+  init: async function (x) {
 
-      for (i = 0; i < data.length; i++) {
-        gameTemplate.find('.panel-title').text(data[i].name);
-        gameTemplate.find('img').attr('src', data[i].picture);
-        gameTemplate.find('.game-year').text(data[i].year);
-        gameTemplate.find('.game-developer').text(data[i].developer);
-        gameTemplate.find('.game-platform').text(data[i].platform);
-        gameTemplate.find('.btn-purchase').attr('data-id', data[i].id);
+    if (x == '../products.json') {
 
-        gamesRow.append(gameTemplate.html());
-      }
-    });
+      $.getJSON(x, function (data) {
+        var gamesRow = $('#gamesRow');
+        var gameTemplate = $('#gameTemplate');
+
+        document.getElementById('gamesRow').innerHTML = "";
+
+        for (i = 0; i < data.length; i++) {
+          gameTemplate.find('.panel-title').text(data[i].name);
+          gameTemplate.find('img').attr('src', data[i].picture);
+          gameTemplate.find('.game-year').text(data[i].year);
+          gameTemplate.find('.game-developer').text(data[i].developer);
+          gameTemplate.find('.game-platform').text(data[i].platform);
+          gameTemplate.find('.game-price').text(data[i].price);
+          gameTemplate.find('.btn-purchase').attr('data-id', data[i].id);
+
+          gamesRow.append(gameTemplate.html());
+        }
+      });
+
+    }
+
+    if (x == '../consoles.json') {
+
+      $.getJSON(x, function (data) {
+        var gamesRow = $('#gamesRow');
+        var gameTemplate = $('#gameTemplate');
+
+        document.getElementById('gamesRow').innerHTML = "";
+
+        for (i = 0; i < data.length; i++) {
+          gameTemplate.find('.panel-title').text(data[i].name);
+          gameTemplate.find('img').attr('src', data[i].picture);
+          gameTemplate.find('.game-year').text(data[i].year);
+          gameTemplate.find('.game-developer').text(data[i].developer);
+          gameTemplate.find('.game-platform').text(data[i].platform);
+          gameTemplate.find('.game-price').text(data[i].price);
+          gameTemplate.find('.btn-purchase').attr('data-id', data[i].id);
+
+          gamesRow.append(gameTemplate.html());
+        }
+      });
+
+    }
 
     return await App.initWeb3();
   },
@@ -121,6 +151,6 @@ App = {
 
 $(function () {
   $(window).load(function () {
-    App.init();
+    App.init('../products.json');
   });
 });

@@ -5,7 +5,8 @@
     "picture": "images/FallenOrderPC.png",
     "year": 2019,
     "developer": "Eletronic Arts",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "picture": "images/FallenOrderPS4.png",
     "year": 2019,
     "developer": "Eletronic Arts",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "picture": "images/FallenOrderPS5.png",
     "year": 2019,
     "developer": "Eletronic Arts",
-    "platform": "PS5"
+    "platform": "PS5",
+    "price": 0
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "picture": "images/FFXIV.png",
     "year": 2021,
     "developer": "Square Enix",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "picture": "images/FFXIV.png",
     "year": 2021,
     "developer": "Square Enix",
-    "platform": "PS5"
+    "platform": "PS5",
+    "price": 0
   },
   {
     "id": 5,
@@ -45,7 +50,8 @@
     "picture": "images/FFXVPC.png",
     "year": 2018,
     "developer": "Square Enix",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 6,
@@ -53,7 +59,8 @@
     "picture": "images/FFXVPS4.png",
     "year": 2016,
     "developer": "Square Enix",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   },
   {
     "id": 7,
@@ -61,7 +68,8 @@
     "picture": "images/NAPC.png",
     "year": 2017,
     "developer": "Square Enix",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 8,
@@ -69,7 +77,8 @@
     "picture": "images/NAPS4.png",
     "year": 2017,
     "developer": "Square Enix",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   },
   {
     "id": 9,
@@ -77,7 +86,8 @@
     "picture": "images/NRPC.png",
     "year": 2021,
     "developer": "Square Enix",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 10,
@@ -85,7 +95,8 @@
     "picture": "images/NRPS4.png",
     "year": 2021,
     "developer": "Square Enix",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   },
   {
     "id": 11,
@@ -93,7 +104,8 @@
     "picture": "images/DMC5PC.png",
     "year": 2019,
     "developer": "Capcom",
-    "platform": "PC"
+    "platform": "PC",
+    "price": 0
   },
   {
     "id": 12,
@@ -101,7 +113,8 @@
     "picture": "images/DMC5PS4.png",
     "year": 2019,
     "developer": "Capcom",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   },
   {
     "id": 13,
@@ -109,7 +122,8 @@
     "picture": "images/DMC5XONE.png",
     "year": 2019,
     "developer": "Capcom",
-    "platform": "XBOX ONE"
+    "platform": "XBOX ONE",
+    "price": 0
   },
   {
     "id": 14,
@@ -117,7 +131,8 @@
     "picture": "images/AC2PS3.png",
     "year": 2009,
     "developer": "Ubisoft",
-    "platform": "PS3"
+    "platform": "PS3",
+    "price": 0
   },
   {
     "id": 15,
@@ -125,7 +140,8 @@
     "picture": "images/AC2X360.png",
     "year": 2009,
     "developer": "Ubisoft",
-    "platform": "XBOX 360"
+    "platform": "XBOX 360",
+    "price": 0
   },
   {
     "id": 16,
@@ -133,6 +149,7 @@
     "picture": "images/HZDPS4.png",
     "year": 2017,
     "developer": "Guerrilla",
-    "platform": "PS4"
+    "platform": "PS4",
+    "price": 0
   }
 ]
