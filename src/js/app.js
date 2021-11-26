@@ -6,6 +6,8 @@ App = {
 
     if (x == '../products.json') {
 
+      document.getElementById('dropdown').innerText = "Games";
+
       $.getJSON(x, function (data) {
         var gamesRow = $('#gamesRow');
         var gameTemplate = $('#gameTemplate');
@@ -20,6 +22,7 @@ App = {
           gameTemplate.find('.game-platform').text(data[i].platform);
           gameTemplate.find('.game-price').text(data[i].price);
           gameTemplate.find('.btn-purchase').attr('data-id', data[i].id);
+          gameTemplate.find('.btn-purchase').attr('value', data[i].id);
 
           gamesRow.append(gameTemplate.html());
         }
@@ -29,6 +32,8 @@ App = {
 
     if (x == '../consoles.json') {
 
+      document.getElementById('dropdown').innerText = "Consoles";
+
       $.getJSON(x, function (data) {
         var gamesRow = $('#gamesRow');
         var gameTemplate = $('#gameTemplate');
@@ -43,6 +48,7 @@ App = {
           gameTemplate.find('.game-platform').text(data[i].platform);
           gameTemplate.find('.game-price').text(data[i].price);
           gameTemplate.find('.btn-purchase').attr('data-id', data[i].id);
+          gameTemplate.find('.btn-purchase').attr('value', data[i].id);
 
           gamesRow.append(gameTemplate.html());
         }

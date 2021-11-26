@@ -6,7 +6,8 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
     "id": 1,
@@ -15,7 +16,8 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
     "id": 2,
@@ -24,7 +26,8 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PS5",
-    "price": 0
+    "price": 0,
+    "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
     "id": 3,
@@ -33,7 +36,8 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://static.wikia.nocookie.net/finalfantasy/images/b/b4/FFXIV_Endwalker_Amano_art.jpg/revision/latest/scale-to-width-down/250?cb=20210206074038"
   },
   {
     "id": 4,
@@ -42,7 +46,8 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PS5",
-    "price": 0
+    "price": 0,
+    "link": "https://static.wikia.nocookie.net/finalfantasy/images/b/b4/FFXIV_Endwalker_Amano_art.jpg/revision/latest/scale-to-width-down/250?cb=20210206074038"
   },
   {
     "id": 5,
@@ -51,7 +56,8 @@
     "year": 2018,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Final_Fantasy_XV_capa.png"
   },
   {
     "id": 6,
@@ -60,7 +66,8 @@
     "year": 2016,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Final_Fantasy_XV_capa.png"
   },
   {
     "id": 7,
@@ -69,7 +76,8 @@
     "year": 2017,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://image.api.playstation.com/cdn/UP0082/CUSA04551_00/WkgJ8OLvEkfoZmY65B8cudKYw8Aylp1y.png"
   },
   {
     "id": 8,
@@ -78,25 +86,28 @@
     "year": 2017,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://image.api.playstation.com/cdn/UP0082/CUSA04551_00/WkgJ8OLvEkfoZmY65B8cudKYw8Aylp1y.png"
   },
   {
     "id": 9,
-    "name": "Nier Replicant ver.1.22474487139",
+    "name": "Nier Replicant",
     "picture": "images/NRPC.png",
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0404/IZEXjCSSvNkDE3AAb0iafW8k.png"
   },
   {
     "id": 10,
-    "name": "Nier Replicant ver.1.22474487139",
+    "name": "Nier Replicant",
     "picture": "images/NRPS4.png",
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0404/IZEXjCSSvNkDE3AAb0iafW8k.png"
   },
   {
     "id": 11,
@@ -105,7 +116,8 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "PC",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
     "id": 12,
@@ -114,7 +126,8 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
     "id": 13,
@@ -123,7 +136,8 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "XBOX ONE",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
     "id": 14,
@@ -132,7 +146,8 @@
     "year": 2009,
     "developer": "Ubisoft",
     "platform": "PS3",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/a/ac/Assassins_Creed_2_capa.png"
   },
   {
     "id": 15,
@@ -141,7 +156,8 @@
     "year": 2009,
     "developer": "Ubisoft",
     "platform": "XBOX 360",
-    "price": 0
+    "price": 0,
+    "link": "https://upload.wikimedia.org/wikipedia/pt/a/ac/Assassins_Creed_2_capa.png"
   },
   {
     "id": 16,
@@ -150,6 +166,7 @@
     "year": 2017,
     "developer": "Guerrilla",
     "platform": "PS4",
-    "price": 0
+    "price": 0,
+    "link": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png"
   }
 ]

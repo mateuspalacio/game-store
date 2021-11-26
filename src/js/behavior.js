@@ -1,10 +1,10 @@
 
-function sendEmail() {
+var id = -1;
+
+function sendEmail(link, jogoNome) {
 
   nome = document.getElementById('inputName').value;
   email = document.getElementById('inputEmail').value;
-
-  clearForm()
 
   Email.send({
     Host: "smtp.gmail.com",
@@ -13,39 +13,62 @@ function sendEmail() {
     To: email,
     From: "victor_tmeloo@edu.unifor.br",
     Subject: "Your Game is Ready",
-    Body: "<html><p>Hi " + nome + ", here is your game!</p><img src='#'></html>",
+    Body: "<html><p>Hi " + nome + ", here is your product " + jogoNome + "!</p><img src='" + link + "'></html>"
   })
     .then(function (message) {
-      alert("mail sent successfully")
+      alert("email sent successfully")
     });
+
+  clearForm()
+
 }
 
-function sendEmailNow() {
+function find() {
 
-  var nodemailer = require('nodemailer');
+  var link;
 
-  var transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: 'victor_tmeloo@edu.unifor.br',
-      pass: '16254926'
-    }
-  });
+  var jogoNome;
 
-  var mailOptions = {
-    from: 'victor_tmeloo@edu.unifor.br',
-    to: 'victor_tmeloo@hotmail.com',
-    subject: 'Your Game is Ready',
-    text: 'That was easy!'
-  };
+  if (document.getElementById('dropdown').innerText == "Games") {
 
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      alert(error)
-    } else {
-      alert('Email sent: ' + info.response)
-    }
-  });
+    $.getJSON('../products.json', function (data) {
+
+      for (i = 0; i < data.length; i++) {
+
+        if (data[i].id == id) {
+          link = data[i].link;
+          jogoNome = data[i].name;
+          sendEmail(link, jogoNome)
+        }
+
+      }
+    });
+
+  }
+
+  if (document.getElementById('dropdown').innerText == "Consoles") {
+
+    $.getJSON('../consoles.json', function (data) {
+
+      for (i = 0; i < data.length; i++) {
+
+        if (data[i].id == id) {
+          link = data[i].link;
+          jogoNome = data[i].name;
+          sendEmail(link, jogoNome)
+        }
+
+      }
+    });
+
+  }
+
+
+}
+
+function retornaValor(x) {
+
+  id = parseInt(x.value);
 
 }
 
@@ -54,6 +77,7 @@ function clearForm() {
   var name = document.getElementById("inputName");
   var email = document.getElementById("inputEmail");
 
-  name.value = ""
-  email.value = ""
+  name.value = "";
+  email.value = "";
+
 }
