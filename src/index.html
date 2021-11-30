@@ -11,14 +11,11 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
   <!-- SMTP -->
   <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-  <!-- Behavior -->
-  <script src="js/behavior.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,8 +64,8 @@
           <strong>Year</strong>: <span class="game-year"></span><br />
           <strong>Platform</strong>: <span class="game-platform"></span><br />
           <strong>Price</strong>: <span class="game-price"></span><br /><br />
-          <button class="btn btn-primary btn-purchase" type="button" data-toggle="modal"
-            data-target="#modalExemplo" id="button-buy" onclick="retornaValor(this)">Buy</button>
+          <button class="btn btn-primary btn-purchase" type="button"
+            id="button-buy" onclick="App.handleAdopt(this)">Buy</button>
         </div>
       </div>
     </div>
@@ -81,7 +78,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h4 class="modal-title" id="exampleModalLabel">Purchase Information</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar" onclick="clearForm()">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar" onclick="App.clearForm()">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -90,19 +87,16 @@
             <div class="form-group">
               <label>Name:</label>
               <input id="inputName" type="text" class="form-control" placeholder="Name">
-              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
-                ninguém.</small>
             </div>
             <div class="form-group">
               <label>E-mail:</label>
               <input id="inputEmail" type="email" class="form-control" placeholder="E-mail">
-              <small id="passwordHelp" class="form-text text-muted">A senha deve ter no minimo seis digitos.</small>
             </div>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="clearForm()">Close</button>
-          <button type="button" class="btn btn-primary" onclick="find()">Confirm Purchase</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="App.clearForm()">Close</button>
+          <button type="button" class="btn btn-primary" onclick="App.find()">Confirm Purchase</button>
         </div>
       </div>
     </div>

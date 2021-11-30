@@ -1,5 +1,5 @@
-var GamePurchase = artifacts.require("GamePurchase");
+var GameStore = artifacts.require("GameStore");
 
 module.exports = function(deployer) {
-  deployer.deploy(GamePurchase);
+  deployer.deploy(GameStore);
 };
