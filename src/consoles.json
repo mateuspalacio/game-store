@@ -6,7 +6,7 @@
         "year": 2006,
         "developer": "Sony",
         "platform": "Playstation Network",
-        "price": 1,
+        "price": 0.45,
         "link": "https://s2.glbimg.com/E1ugszzmAoxVsXMwoOyT9qg-794=/0x0:695x575/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2017/02/07/9252394sz2.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "year": 2005,
         "developer": "Microsoft",
         "platform": "XBOX Live",
-        "price": 1,
+        "price": 0.45,
         "link": "https://images-americanas.b2w.io/produtos/2415041998/imagens/console-xbox-360-slim-4gb/2415041998_1_xlarge.jpg "
     },
     {
@@ -26,7 +26,7 @@
         "year": 2013,
         "developer": "Sony",
         "platform": "Playstation Network",
-        "price": 2,
+        "price": 0.65,
         "link": "https://http2.mlstatic.com/D_NQ_NP_645839-MLB47778835407_102021-W.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "year": 2013,
         "developer": "Microsoft",
         "platform": "XBOX Live",
-        "price": 2,
+        "price": 0.65,
         "link": "https://files.tecnoblog.net/wp-content/uploads/2020/12/Xbox-One-500GBa-700x700.jpg"
     },
     {
@@ -46,7 +46,7 @@
         "year": 2020,
         "developer": "Sony",
         "platform": "Playstation Network",
-        "price": 3,
+        "price": 0.75,
         "link": "https://s2.glbimg.com/5412ft5nc5QPrG44sEvPUay_-3A=/0x0:1279x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/v/p/BLZh9QQ62E0I8JEHb75g/ps5.jpg"
     },
     {
@@ -56,7 +56,7 @@
         "year": 2020,
         "developer": "Microsoft",
         "platform": "XBOX Live",
-        "price": 3,
+        "price": 0.75,
         "link": "https://compass-ssl.xbox.com/assets/b7/41/b7414f03-9878-4ed3-a9a4-b4ab8f19ca97.jpg?n=0202999-Hero-M.jpg"
     },
     {
@@ -66,7 +66,7 @@
         "year": 2020,
         "developer": "Microsoft",
         "platform": "XBOX Live",
-        "price": 3,
+        "price": 0.75,
         "link": "https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_g.jpg"
     }
     

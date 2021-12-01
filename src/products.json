@@ -6,7 +6,7 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PC",
-    "price": 0.00001,
+    "price": 0.15,
     "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
@@ -16,7 +16,7 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PS4",
-    "price": 0.75,
+    "price": 0.15,
     "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "year": 2019,
     "developer": "Eletronic Arts",
     "platform": "PS5",
-    "price": 0.75,
+    "price": 0.15,
     "link": "https://cdn1.epicgames.com/e509c16d53714b13ba8e393966507255/offer/jedi-fallen-orderWide-1920x1080-28eae371dbae080e2fc0df646fa42917.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0.55,
+    "price": 0.25,
     "link": "https://static.wikia.nocookie.net/finalfantasy/images/b/b4/FFXIV_Endwalker_Amano_art.jpg/revision/latest/scale-to-width-down/250?cb=20210206074038"
   },
   {
@@ -46,7 +46,7 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PS5",
-    "price": 0.55,
+    "price": 0.25,
     "link": "https://static.wikia.nocookie.net/finalfantasy/images/b/b4/FFXIV_Endwalker_Amano_art.jpg/revision/latest/scale-to-width-down/250?cb=20210206074038"
   },
   {
@@ -56,7 +56,7 @@
     "year": 2018,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 0.50,
+    "price": 0.23,
     "link": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Final_Fantasy_XV_capa.png"
   },
   {
@@ -66,7 +66,7 @@
     "year": 2016,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 0.50,
+    "price": 0.23,
     "link": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Final_Fantasy_XV_capa.png"
   },
   {
@@ -76,7 +76,7 @@
     "year": 2017,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 1.15,
+    "price": 0.25,
     "link": "https://image.api.playstation.com/cdn/UP0082/CUSA04551_00/WkgJ8OLvEkfoZmY65B8cudKYw8Aylp1y.png"
   },
   {
@@ -86,7 +86,7 @@
     "year": 2017,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 1.15,
+    "price": 0.25,
     "link": "https://image.api.playstation.com/cdn/UP0082/CUSA04551_00/WkgJ8OLvEkfoZmY65B8cudKYw8Aylp1y.png"
   },
   {
@@ -96,7 +96,7 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PC",
-    "price": 1,
+    "price": 0.23,
     "link": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0404/IZEXjCSSvNkDE3AAb0iafW8k.png"
   },
   {
@@ -106,7 +106,7 @@
     "year": 2021,
     "developer": "Square Enix",
     "platform": "PS4",
-    "price": 1,
+    "price": 0.23,
     "link": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0404/IZEXjCSSvNkDE3AAb0iafW8k.png"
   },
   {
@@ -116,7 +116,7 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "PC",
-    "price": 1.50,
+    "price": 0.17,
     "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
@@ -126,7 +126,7 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "PS4",
-    "price": 1.50,
+    "price": 0.17,
     "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
@@ -136,7 +136,7 @@
     "year": 2019,
     "developer": "Capcom",
     "platform": "XBOX ONE",
-    "price": 1.50,
+    "price": 0.17,
     "link": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/Devil_May_Cry_5.jpg/270px-Devil_May_Cry_5.jpg"
   },
   {
@@ -146,7 +146,7 @@
     "year": 2009,
     "developer": "Ubisoft",
     "platform": "PS3",
-    "price": 0.25,
+    "price": 0.12,
     "link": "https://upload.wikimedia.org/wikipedia/pt/a/ac/Assassins_Creed_2_capa.png"
   },
   {
@@ -156,7 +156,7 @@
     "year": 2009,
     "developer": "Ubisoft",
     "platform": "XBOX 360",
-    "price": 0.25,
+    "price": 0.12,
     "link": "https://upload.wikimedia.org/wikipedia/pt/a/ac/Assassins_Creed_2_capa.png"
   },
   {
@@ -166,7 +166,7 @@
     "year": 2017,
     "developer": "Guerrilla",
     "platform": "PS4",
-    "price": 2,
+    "price": 0.25,
     "link": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png"
   }
 ]

@@ -127,12 +127,6 @@ App = {
 
   handleAdopt: function (x) {
 
-    //event.preventDefault();
-
-    //var gameId = parseInt($(event.target).data('id'));
-
-    //var adoptionInstance;
-
     App.defineValores(x)
 
     web3.eth.getAccounts(function (error, accounts) {
@@ -163,16 +157,23 @@ App = {
         console.log("nao deu certo");
       });
 
-      /*App.contracts.GameStore.deployed().then(function (instance) {
+      /*event.preventDefault();
+
+      var gameId = parseInt($(event.target).data('id'));
+
+      var adoptionInstance;
+
+      App.contracts.GameStore.deployed().then(function (instance) {
         adoptionInstance = instance;
 
         // Execute adopt as a transaction by sending account
         return adoptionInstance.comprar({ from: account });
       }).then(function (result) {
-        console.log(result.message);
+        $("#modalExemplo").modal("show");
       }).catch(function (err) {
-        console.log(err.message);
+        console.log("nao deu certo");
       });*/
+
     });
   },
 

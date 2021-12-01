@@ -7,8 +7,8 @@ contract GameStore {
     constructor() public {
         gerente = msg.sender;
     }
-    function comprar() public payable{
-        require(msg.value >= .1 ether);
+    function comprar(uint preco) public payable{
+        require(msg.value == preco * 1000000000000000000);
         comprador = msg.sender;
     }
     function transferir() public restricted {
