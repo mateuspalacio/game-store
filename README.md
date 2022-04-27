@@ -8,6 +8,6 @@ The code here has been edited by the following:
 
 * Mateus Palácio
 * Mateus Bessa
-* Victor Torres
+* Victor Torres de Melo
 
 The professor of the course is Raimir. Please refer any questions directly to one of the developers.
